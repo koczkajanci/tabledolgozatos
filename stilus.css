@@ -1,0 +1,31 @@
+th{
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody:nth-child(even){
+    background-color: greenyellow;
+    
+}
+
+tbody:nth-child(odd){
+    background-color: beige;
+}
+
+table, td,th{
+    border: 5px brown solid;
+    border-collapse: collapse;
+}
+
+tbody tr:hover{
+    background-color: aqua;
+}
+
+.error{
+    color: red;
+}
+
+.selected {
+    scale: 1.2;
+}
+
